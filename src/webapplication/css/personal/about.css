@@ -1,0 +1,15 @@
+#about-me-desc{
+	width:70%;
+	float:left;
+}
+
+#about-me-pic{
+	width:25%;
+	float:right;
+	/*border:1px solid gray;*/
+}
+
+#about-me-pic > img {
+	box-shadow:10 10 30px black;
+	margin-top:25px;
+}

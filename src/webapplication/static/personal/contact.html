@@ -1,0 +1,72 @@
+<html>
+<!-- 
+This is a CSS demo site 
+For this example i am going implement a static HTML website dominated by CSS styling with minimal JavaScript.
+The site will be a sample Personal Website or a Business/Retail static site
+
+note* for pure graphical styling probably best to introduce some graphics from graphic design
+also* I am going to use HTML 4 instead of HTML 5
+ -->
+<head>
+<title>CSS Demo</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is a HTML Demo site">
+	<meta name="keywords" content="HTML, XHTML">
+	<meta name="author" content="Colin But">
+	<link rel="stylesheet" type="text/css" href="../../css/personal/style.css"> <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../../css/personal/contact.css">
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="site-version">
+		<a href="#">Personal</a>
+		<a href="#">Business</a>
+	</div>
+	
+<div id="container">
+	<div id="header">
+		<h1>CSS Demo</h1>
+		<h3>This site uses CSS3.</h3>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="profile.html">Profile</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="form-area">
+			<div id="form-header">
+				<h3>Contact Me</h3>
+			</div>
+			<div id="form">
+				<form id="contact-form">
+					<table>
+						<tr><td>Name:</td><td><input type="text" value="Enter your name" style="width:400px"></td></tr>
+						<tr><td>Age:</td><td><input type="text" value="Enter your age" style="width:400px"></td></tr>
+						<tr><td>Email:</td><td><input type="text" value="Enter your email" style="width:400px"></td></tr>
+						<tr><td valign="top">Message:</td><td><textarea value="Enter your message" style="width:400px;overflow:auto;" rows="15"></textarea></td></tr>
+						<tr><td></td><td align="right"><input type="submit" value="Submit"></td></tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="notice">
+			<h2 class="alert remove-space"><u>Notice</u></h2>
+			<p class="alert">This site does not contain any JS (JavaScript) but just CSS! <br />There are separate project(s) for a full X/HTML(5), CSS, and JS Site.</p>
+		</div>
+		<div class="clear"></div>
+		
+		</div>
+	<div id="footer">
+		<p>&copy; Copyright Colin But. All rights reserved 2014.</p>
+	</div>
+	</div>
+</div>
+
+
+</body>
+</html>

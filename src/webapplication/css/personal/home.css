@@ -1,0 +1,28 @@
+#content > #middle{
+	background-color:magenta;
+	width:65%;
+	height:300px;
+	float:left;
+}
+
+#content > #social{
+	/*background-color:cyan;*/
+	width:30%;
+	height:300px;
+	float:right;
+}
+
+#content > #social > #social-media{
+	background-color:green;
+	width:100%;
+	height:30%;
+	margin-top:10px;
+}
+
+#content > #social > #social-links{
+	background-color:white;
+	width:100%;
+	height:70%;
+	margin-top:10px;
+}
+

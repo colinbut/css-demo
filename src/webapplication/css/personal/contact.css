@@ -1,0 +1,36 @@
+#content > #form-area{
+	width:60%;
+	height: 500px;
+	float:left;
+}
+
+#content > #form-area > #form-header{
+	/*border-bottom: 1px solid blue;*/
+}
+
+#content > #form-area > #form-header > h4{
+	font-size:60px;
+}
+
+#content > #form-area > #form{
+	/*margin-top:20px;*/
+}
+
+#content > #form-area > #form > #contact-form > table{
+	width:100%;
+}
+
+#content > #notice{
+	width:25%;
+	height:500px;
+	float:right;
+	border:1px solid green;
+	border-radius:10px;
+	background-color:lime;
+}
+
+.alert{
+	color:red;
+	font-size:15px;
+	padding:10px;
+}
